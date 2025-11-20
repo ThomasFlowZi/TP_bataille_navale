@@ -10,3 +10,7 @@ Joueur::Joueur(int o) {
 	boats.push_back(new Torpilleur());
 
 }
+
+vector<Boat*> Joueur::getBoats() {
+	return boats;
+}

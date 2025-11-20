@@ -13,4 +13,3 @@ Plateau::Plateau(int size) {
 		this->tab.push_back(temp);
 	}
 }
-

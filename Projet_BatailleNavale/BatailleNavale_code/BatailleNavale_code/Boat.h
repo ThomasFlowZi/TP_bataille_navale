@@ -2,6 +2,7 @@
 
 # include <iostream>
 # include <string>
+# include <vector>
 
 using namespace std;
 
@@ -18,6 +19,8 @@ private:
 	int x;
 	int y;
 
+	vector<vector<int>> positions;
+
 public:
 
 	Boat(string name, int l);
@@ -30,6 +33,8 @@ public:
 	int getX() const;
 	int getY() const;
 	bool getDirection() const;
+
+	string getName() const;
 
 
 };

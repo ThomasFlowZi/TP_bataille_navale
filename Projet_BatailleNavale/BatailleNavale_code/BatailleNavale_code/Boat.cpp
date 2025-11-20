@@ -12,9 +12,25 @@ Boat::Boat(string name, int length) {
 
 
 void Boat::setPosition(int x, int y, bool direction) {
+	positions.clear();
+
 	this->x = x;
 	this->y = y;
 	this->direction = direction;
+
+	vector<int> temp;
+	for (int i = 0; i < length; i++) {
+		if (direction) {
+				temp.push_back(x);
+				temp.push_back(y + i);
+		}
+		else {
+			temp.push_back(x + i);
+			temp.push_back(y);
+		}
+
+	}
+
 }
 
 
@@ -38,4 +54,8 @@ int Boat::getY() const {
 
 bool Boat::getDirection() const {
 	return direction;
+}
+
+string Boat::getName() const {
+	return name;
 }
