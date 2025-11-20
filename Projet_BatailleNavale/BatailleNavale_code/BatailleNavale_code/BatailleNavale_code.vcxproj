@@ -133,6 +133,7 @@
     <ClCompile Include="Croiseur.cpp" />
     <ClCompile Include="Joueur.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ordi.cpp" />
     <ClCompile Include="Plateau.cpp" />
     <ClCompile Include="PorteAvion.cpp" />
     <ClCompile Include="SousMarin.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="ContreTorpilleur.h" />
     <ClInclude Include="Croiseur.h" />
     <ClInclude Include="Joueur.h" />
+    <ClInclude Include="Ordi.h" />
     <ClInclude Include="Plateau.h" />
     <ClInclude Include="PorteAvion.h" />
     <ClInclude Include="SousMarin.h" />
