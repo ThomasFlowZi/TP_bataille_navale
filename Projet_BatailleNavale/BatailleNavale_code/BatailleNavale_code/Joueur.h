@@ -3,6 +3,12 @@
 # include "Boat.h"
 # include <vector>
 
+# include "PorteAvion.h"
+# include "ContreTorpilleur.h"
+# include "Croiseur.h";
+# include "SousMarin.h";
+# include "Torpilleur.h";
+
 using namespace std;
 
 class Joueur

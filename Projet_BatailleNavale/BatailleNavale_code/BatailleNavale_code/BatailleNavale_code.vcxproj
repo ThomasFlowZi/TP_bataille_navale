@@ -128,17 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="Case.cpp" />
     <ClCompile Include="ContreTorpilleur.cpp" />
     <ClCompile Include="Croiseur.cpp" />
+    <ClCompile Include="Joueur.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plateau.cpp" />
     <ClCompile Include="PorteAvion.cpp" />
     <ClCompile Include="SousMarin.cpp" />
     <ClCompile Include="Torpilleur.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boat.h" />
+    <ClInclude Include="Case.h" />
     <ClInclude Include="ContreTorpilleur.h" />
     <ClInclude Include="Croiseur.h" />
+    <ClInclude Include="Joueur.h" />
+    <ClInclude Include="Plateau.h" />
     <ClInclude Include="PorteAvion.h" />
     <ClInclude Include="SousMarin.h" />
     <ClInclude Include="Torpilleur.h" />

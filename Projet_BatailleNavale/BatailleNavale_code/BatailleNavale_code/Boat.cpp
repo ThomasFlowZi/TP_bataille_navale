@@ -6,8 +6,8 @@ Boat::Boat(string name, int length) {
 	alive = true;
 
 	direction = false;
-	x = 0;
-	y = 0;
+	x = -10;
+	y = -10;
 }
 
 
