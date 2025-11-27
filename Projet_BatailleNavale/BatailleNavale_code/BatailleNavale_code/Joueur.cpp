@@ -15,7 +15,6 @@ vector<Boat*> Joueur::getBoats() {
 	return boats;
 }
 
-<<<<<<< Updated upstream
 void Joueur::joue() {
 	int x, y;
 	bool invalidCoordinates = true;
@@ -31,7 +30,7 @@ void Joueur::joue() {
 
 	cout << "x = " << x << " ; y = " << y << endl;
 }
-=======
+
 void Joueur::affiche()
 {
 	for (auto it : boats)
@@ -41,4 +40,3 @@ void Joueur::affiche()
 	}
 
 }
->>>>>>> Stashed changes
