@@ -8,13 +8,12 @@ class Ordi : public Joueur
 {
 	string etat;
 	int calibrageNum;
-	bool cadranx;
-	bool cadrany;
+	int cadran;
 	int oldx;
 	int oldy;
 	
 public:
-	Ordi(int o, int ox, int oy, string e = "cherche", int cB=0, bool cx=0, bool cy=0) : Joueur(o), etat(e), calibrageNum(cB), cadranx(cx), cadrany(cy), oldx(ox), oldy(oy) {}
+	Ordi(int o, int ox, int oy, string e = "cherche", int cB=0, int c=0) : Joueur(o), etat(e), calibrageNum(cB), cadran(c), oldx(ox), oldy(oy) {}
 	void joue();
 };
 
