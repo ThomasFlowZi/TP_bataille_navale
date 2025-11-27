@@ -31,7 +31,7 @@ void Plateau::affiche()
 	{
 		cout << "| " << i << " | ";
 		for (int j = 0; j < size; j++) {
-			cout << tab[i][j].getOccupied() << " | ";
+			cout << tab[i][j].getStatus() << " | ";
 		}
 		cout << endl;
 	}
