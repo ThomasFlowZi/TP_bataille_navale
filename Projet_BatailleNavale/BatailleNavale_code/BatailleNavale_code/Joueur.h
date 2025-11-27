@@ -22,5 +22,7 @@ public:
 	Joueur(int o);
 
 	vector<Boat*> getBoats();
+
+	void joue();
 };
 

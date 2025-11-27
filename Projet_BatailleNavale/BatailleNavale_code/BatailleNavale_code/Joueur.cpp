@@ -14,3 +14,19 @@ Joueur::Joueur(int o) {
 vector<Boat*> Joueur::getBoats() {
 	return boats;
 }
+
+void Joueur::joue() {
+	int x, y;
+	bool invalidCoordinates = true;
+	cout << "c'est a votre tour de jouer" << endl;
+	while(invalidCoordinates){
+		cout << "choix des coordonnes de tir, entrer deux entiers (ligne puis colonne)" << endl;
+		cin >> x;
+		cin >> y;
+		if ((x < 11) && (y < 11) && (x > 0) && (y > 0)) { invalidCoordinates = false; }
+		else { cout << "coordonees erronees" << endl; }
+	}
+	
+
+	cout << "x = " << x << " ; y = " << y << endl;
+}
