@@ -36,6 +36,7 @@ public:
 
 	string getName() const;
 
+	void buildPosVector();
 
 };
 

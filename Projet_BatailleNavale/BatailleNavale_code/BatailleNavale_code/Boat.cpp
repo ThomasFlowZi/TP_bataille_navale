@@ -59,3 +59,20 @@ bool Boat::getDirection() const {
 string Boat::getName() const {
 	return name;
 }
+
+void Boat::buildPosVector() {
+	positions.clear();
+	vector<int> currentPos(2);;
+
+	for (int i = 0; i < length; i++) {
+		if (direction) {//déploiement vertical, donc on défile vers le bas
+			currentPos[0] = x;
+			currentPos[1] = y - i;
+		}
+		else {//déploiement horizontal, on défile vers la droite
+			currentPos[0] = x + i;
+			currentPos[1] = y;
+		}
+		positions.push_back(currentPos);
+	}
+}
