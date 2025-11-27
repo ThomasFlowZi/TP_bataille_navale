@@ -13,6 +13,7 @@ private:
 	string name;
 	bool alive;
 	int length;
+	int nbr_touche;
 
 	bool direction;		// Direction : 0 = horizontal / 1 = Vertical
 
@@ -33,6 +34,16 @@ public:
 	int getX() const;
 	int getY() const;
 	bool getDirection() const;
+
+	int getTouche() const { return nbr_touche; };
+	void addTouche()  {nbr_touche+=1; };
+
+	vector<vector<int>> getPosition() {
+		return positions;
+	}
+
+	vector<int> getHead() { vector<int> head = { x,y }; return head; }
+
 
 	string getName() const;
 

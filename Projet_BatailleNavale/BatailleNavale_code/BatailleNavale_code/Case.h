@@ -2,13 +2,13 @@
 class Case
 {
 private:
-	bool alive;
+	bool occupied ;
 public:
 	Case();
 
-	bool getAlive() const;
+	bool getOccupied() ;
 
-	void setAlive(bool alive);
+	void setOccupied(bool oc);
 	void killCase();
 
 };

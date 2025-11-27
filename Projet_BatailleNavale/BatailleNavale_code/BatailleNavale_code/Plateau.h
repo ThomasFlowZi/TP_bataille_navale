@@ -1,7 +1,8 @@
 #pragma once
 
 # include <vector>
-
+#include <iostream>
+using namespace std;
 # include "Case.h"
 
 using namespace std;
@@ -13,7 +14,10 @@ private:
 	vector<vector<Case>> tab;
 public:
 	Plateau(int size);
-
+	vector<vector<Case>>& getTab();
+	void affiche();
+	
+	int getSize() { return size; };
 
 };
 

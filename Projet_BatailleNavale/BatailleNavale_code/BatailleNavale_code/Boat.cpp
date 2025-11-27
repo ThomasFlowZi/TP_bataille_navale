@@ -4,6 +4,7 @@ Boat::Boat(string name, int length) {
 	this->name = name;
 	this->length = length;
 	alive = true;
+	this->nbr_touche = 0;
 
 	direction = false;
 	x = -10;

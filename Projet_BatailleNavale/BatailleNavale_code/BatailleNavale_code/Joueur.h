@@ -22,7 +22,11 @@ public:
 	Joueur(int o);
 
 	vector<Boat*> getBoats();
+<<<<<<< Updated upstream
 
 	void joue();
+=======
+	void affiche();
+>>>>>>> Stashed changes
 };
 

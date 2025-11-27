@@ -1,17 +1,17 @@
 #include "Case.h"
 
 Case::Case() {
-	alive = true;
+	occupied = false;
 }
 
-bool Case::getAlive() const {
-	return alive;
+bool Case::getOccupied() {
+	return occupied;
 }
 
-void Case::setAlive(bool alive) {
-	this->alive = alive;
+void Case::setOccupied(bool oc) {
+	occupied = oc;
 }
 
 void Case::killCase() {
-	alive = false;
+	occupied = false;
 }

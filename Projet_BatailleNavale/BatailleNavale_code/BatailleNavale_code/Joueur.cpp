@@ -15,6 +15,7 @@ vector<Boat*> Joueur::getBoats() {
 	return boats;
 }
 
+<<<<<<< Updated upstream
 void Joueur::joue() {
 	int x, y;
 	bool invalidCoordinates = true;
@@ -30,3 +31,14 @@ void Joueur::joue() {
 
 	cout << "x = " << x << " ; y = " << y << endl;
 }
+=======
+void Joueur::affiche()
+{
+	for (auto it : boats)
+	{
+		cout << " votre bateau : " << it->getName() << " de taille : " << it->getLength() << " a comme position de tete : ( " << it->getHead()[0] << " , " << it->getHead()[1] << " ) et a ete touche : " << it->getTouche() << " fois" << endl;
+
+	}
+
+}
+>>>>>>> Stashed changes
