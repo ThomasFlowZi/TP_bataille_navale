@@ -2,13 +2,13 @@
 class Case
 {
 private:
-	bool occupied ;
+	int status ;//vide=0, intact=1,touché=2
 public:
 	Case();
 
-	bool getOccupied() ;
+	int getStatus() ;
 
-	void setOccupied(bool oc);
+	void setStatus(int stat);
 	void killCase();
 
 };

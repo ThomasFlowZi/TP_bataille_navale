@@ -1,18 +1,25 @@
-﻿  Joueur.cpp
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+﻿  Boat.cpp
+  Case.cpp
+  ContreTorpilleur.cpp
+  Croiseur.cpp
+  Joueur.cpp
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   main.cpp
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(4,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(5,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(91,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(4,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(5,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\main.cpp(91,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
   Ordi.cpp
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(8,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(9,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\BatailleNavale_code\Joueur.h(10,11): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Plateau.cpp
+  PorteAvion.cpp
+  SousMarin.cpp
   Torpilleur.cpp
   Génération de code en cours...
-  BatailleNavale_code.vcxproj -> C:\Users\Eleve\source\repos\TP_bataille_navale\Projet_BatailleNavale\BatailleNavale_code\x64\Debug\BatailleNavale_code.exe
+  BatailleNavale_code.vcxproj -> C:\Users\Eleve\source\repos\TP bataille navale\Projet_BatailleNavale\BatailleNavale_code\x64\Debug\BatailleNavale_code.exe

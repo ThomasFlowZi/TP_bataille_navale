@@ -47,7 +47,7 @@ static void Fill_plateau(Joueur a, Plateau& pa)
 					tempY = placementY + c;
 				}
 
-				if (tempX >= 0 && tempX < pa.getSize() && tempY >= 0 && tempY < pa.getSize() && !pa.getTab()[tempX][tempY].getOccupied()) {
+				if (tempX >= 0 && tempX < pa.getSize() && tempY >= 0 && tempY < pa.getSize() && (pa.getTab()[tempX][tempY].getStatus())==0) {
 					boatValid = true;
 					cout << " true" << endl;
 				}
@@ -73,7 +73,7 @@ static void Fill_plateau(Joueur a, Plateau& pa)
 						tempX = placementX;
 						tempY = placementY + c;
 					}
-					pa.getTab()[tempX][tempY].setOccupied(true);
+					pa.getTab()[tempX][tempY].setStatus(1);
 					a.getBoats()[i]->setPosition(placementX, placementY, placementDirection);
 					cout << "ton bateau est en place !" << endl;
 				}

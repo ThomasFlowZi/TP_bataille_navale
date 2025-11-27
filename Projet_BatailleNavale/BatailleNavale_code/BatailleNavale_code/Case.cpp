@@ -1,17 +1,17 @@
 #include "Case.h"
 
 Case::Case() {
-	occupied = false;
+	status = 0;
 }
 
-bool Case::getOccupied() {
-	return occupied;
+int Case::getStatus() {
+	return status;
 }
 
-void Case::setOccupied(bool oc) {
-	occupied = oc;
+void Case::setStatus(int stat) {
+	status = stat;
 }
 
 void Case::killCase() {
-	occupied = false;
+	status = 0;
 }
